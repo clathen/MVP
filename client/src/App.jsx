@@ -11,7 +11,7 @@ function App() {
   const refresh = () => {
     Axios({
       method: "get",
-      url: "http://127.0.0.1:3000/items",
+      url: "/items",
     }).then((res) => {
       setItems(res.data);
     });

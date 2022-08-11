@@ -4,7 +4,7 @@ import Axios from "axios";
 var onClickDelete = function (id) {
   return Axios({
     method: "put",
-    url: "http://127.0.0.1:3000/items",
+    url: "/items",
     data: {
       id: id,
     },

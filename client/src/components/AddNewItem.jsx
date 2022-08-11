@@ -8,7 +8,7 @@ function AddNewItem({ refresh }) {
   function onClickAdd() {
     return Axios({
       method: "post",
-      url: "http://127.0.0.1:3000/items",
+      url: "/items",
       data: {
         name: addItemName,
         calories: addItemCalories,
